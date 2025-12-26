@@ -22,10 +22,7 @@ pip install -e .
 
 ```bash
 # 방법 1: 스크립트로 실행
-uv run yamyam-mcp
-
-# 방법 2: 모듈로 실행
-uv run python -m yamyam_mcp.server
+uv run python server.py
 ```
 
 > **참고**: MCP 서버는 STDIO 방식으로 동작하므로, 직접 실행하면 입력을 기다립니다. 일반적으로는 MCP 클라이언트에서 실행합니다.
